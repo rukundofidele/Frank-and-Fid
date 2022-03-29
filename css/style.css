@@ -1,12 +1,67 @@
+body{
+    padding: 16px;
+    text-align: justify;
+}
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
   }
-  #header{
-      display: flexbox;
 
+  #header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
   }
-  #navbar{
-      position: top;
+
+  #nav-bar{
+    position: top;
+  }
+
+  #header-img{
+      max-width: 80px;
+      max-height: 80px;
+  }
+
+  a{
+      text-decoration: none;
+      margin-right: 8px;
+  }
+
+  #testimonios-container{
+      display: flex;
+      gap: 64px;
+      padding: 16px;
+      justify-content: center;
+  }
+
+#third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 300px;
+}
+
+  h1{
+      text-align: center;
+      
+  }
+
+  #second-section{
+    background-color: yellow;
+  }
+
+  #inside{
+    width: 250px;
+  }
+
+  #form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+   
   }
